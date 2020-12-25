@@ -1,0 +1,91 @@
+//cart layout
+
+// close x
+#snip-layout-cart-content a.snip-layout__close {
+    right: 2rem;
+    font-size: 3rem;
+}
+
+// cart container
+
+//header
+#snipcart-header {
+    background-color: $color-blue;
+    box-shadow: 0 1px 1px 0 rgba(161, 209, 247, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
+        0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid darken($color-blue, 5%);
+    margin-bottom: 1rem;
+    #snipcart-title {
+    }
+    #snipcart-header-total {
+        background-color: white;
+        border-radius: 3px;
+        .snip-header__total-label {
+            color: $color-dark;
+        }
+        #snipcart-amount {
+            color: $color-pink;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+} //#snipcart-header
+
+// content
+#snipcart-sub-content {
+    .snipcart-step {
+        .snip-table__item td {
+            font-size: 1.5rem;
+            .snip-product__thumbnail {
+                height: 80px;
+                width: 87px;
+            }
+            .snip-product__name {
+                color: $color-darkorange;
+                line-height: 65px;
+            }
+            .snip-quantity-trigger {
+                span {
+                    margin: 0 1rem;
+                    color: $color-pink;
+                }
+                a {
+                    color: white;
+                    background-color: $color-blue;
+                    font-size: 2rem;
+                }
+            }
+        }
+        
+        .snip-btn--highlight {
+            background-color: $color-pink;
+            margin: 1rem 0;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
+                0 1px 3px 0 rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+    }
+} //#snipcart-sub-content
+
+// footer
+#snipcart-footer {
+    border-top: 1px solid lighten($color-orange, 20%);
+    background-color: lighten($color-orange, 27%);
+    .snip-footer__highlight {
+        color: white;
+    }
+    &::after {
+        content: 'Disclaimer: none of the figures (or dolls) contained in this site are actually for sale.';
+        font-size: 1rem;
+        display: inline-flex;
+        font-weight: 600;
+        letter-spacing: .05px;
+        color: darken($color-orange, 12%);
+        flex: auto;
+        margin-left: 3rem;
+    }
+} //#snipcart-footer
+
+
+
+

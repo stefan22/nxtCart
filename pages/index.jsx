@@ -29,11 +29,12 @@ const Index = (props) => {
   );
 };
 
+
 Index.getInitialProps = async () => {
   return {
     products: [
       {
-        id: "nextjs_halfmoon",
+        id: "zombie_kenny",
         name: "Zombie Kenny",
         price: 33.0,
         image: "../static/zombiekenny.jpg",
@@ -41,7 +42,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_dragonscale",
+        id: "cartman_cop",
         name: "Cartman Cop",
         price: 35.0,
         image: "../static/cartmancop.jpg",
@@ -49,7 +50,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_crowntail",
+        id: "ike_broflovski",
         name: "Ike Broflovski",
         price: 27.5,
         image: "../static/ikebroflovski.jpg",
@@ -57,7 +58,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_veiltail",
+        id: "mr_garrison",
         name: "Mr Garrison",
         price: 15.0,
         image: "../static/mrgarrison1.jpg",
@@ -65,7 +66,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_dragonscale",
+        id: "chef",
         name: "Chef",
         price: 15.0,
         image: "../static/cheftoy.jpg",
@@ -73,7 +74,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_crowntail",
+        id: "butters",
         name: "Butters",
         price: 32.5,
         image: "../static/butters.jpg",
@@ -81,7 +82,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_veiltail",
+        id: "terrance",
         name: "Terrance",
         price: 25.0,
         image: "../static/terrance.jpg",
@@ -89,7 +90,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_veiltail",
+        id: "phillip",
         name: "Phillip",
         price: 25.0,
         image: "../static/phillip.jpeg",
@@ -97,7 +98,7 @@ Index.getInitialProps = async () => {
       },
 
       {
-        id: "nextjs_veiltail",
+        id: "professor_chaos",
         name: "Professor Chaos",
         price: 35.0,
         image: "../static/butterschaos.png",

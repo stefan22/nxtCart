@@ -9,7 +9,8 @@ const ThirdPartyLibraries = () => (
         data-api-key={API_TEST_KEY}
         id="snipcart"
         ></script>
-        <link
+       
+        <link  
         href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css"
         rel="stylesheet"
         type="text/css"

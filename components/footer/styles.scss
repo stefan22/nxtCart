@@ -4,15 +4,18 @@
 .footer {
     color: white;
     background: linear-gradient(90deg, #707070 0%, #474747 100%);
+    font-variant: all-small-caps;
     &__left {
       margin-left: auto;
     }
   
     a {
       color: white;
+      margin: 0 1rem;
     }
     p {
       display: flex;
+      justify-content: center;
       margin: 0;
       @include centered;
       padding-top: 20px;

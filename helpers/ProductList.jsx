@@ -1,7 +1,6 @@
 import Product from "../components/product/";
 
-const ProductList = (props) => {
-  console.log(props);
+const ProductList = props => {
   return (
     <div className="product-list">
       {props.products.map((product, index) => (

@@ -4,8 +4,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
-  @include smallerThanDesktop {
+  @include tablet {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -17,7 +16,7 @@
   }
 }
 
-@mixin smallerThanDesktop {
+@mixin tablet {
   @media (max-width: "1050px") {
     @content;
   }

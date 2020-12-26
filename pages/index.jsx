@@ -29,7 +29,6 @@ const Index = (props) => {
   );
 };
 
-
 Index.getInitialProps = async () => {
   return {
     products: [

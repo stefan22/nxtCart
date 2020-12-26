@@ -11,8 +11,7 @@
 //header
 #snipcart-header {
     background-color: $color-blue;
-    box-shadow: 0 1px 1px 0 rgba(161, 209, 247, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
-        0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px 0 rgba(161, 209, 247, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid darken($color-blue, 5%);
     margin-bottom: 1rem;
     #snipcart-title {
@@ -56,7 +55,7 @@
                 }
             }
         }
-        
+
         .snip-btn--highlight {
             background-color: $color-pink;
             margin: 1rem 0;
@@ -75,17 +74,13 @@
         color: white;
     }
     &::after {
-        content: 'Disclaimer: none of the figures (or dolls) contained in this site are actually for sale.';
+        content: "Disclaimer: none of the figures (or dolls) contained in this site are actually for sale.";
         font-size: 1rem;
         display: inline-flex;
         font-weight: 600;
-        letter-spacing: .05px;
+        letter-spacing: 0.05px;
         color: darken($color-orange, 12%);
         flex: auto;
         margin-left: 3rem;
     }
 } //#snipcart-footer
-
-
-
-

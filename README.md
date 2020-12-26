@@ -6,7 +6,7 @@
 <br />
 
 
-link: ![Next React Cart](https://donpio.tech/repositories/nextcart)
+link: https://donpio.tech/repositories/nextcart
 
 
 <br /><br />

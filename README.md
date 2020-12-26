@@ -10,4 +10,4 @@
 
 
 <br /><br />
-![](./static/nxtcart-screenshot.png)# nxtCart
+![](./static/nxtcart-screenshot.png)

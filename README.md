@@ -1,12 +1,23 @@
-# nxtCart
-• Tech stack: Next.js, React, Sass & Snipcart
+
+
+
+<h2 align="center">NxtCart</h2>
+
+```js
+ Tech stack: Next.js, React, Sass & Snipcart
+ SPA products w/ functioning cart
+```
+
+
+
 <br />
 
-• SPA products w/ functioning cart
-<br /><br />
+
+<h2>Live link<h2>
+  
+ <span>Github Pages</span>   ➡️  &nbsp;  [NextJS cart](https://stefan22.github.io/nxtCart)
 
 
-• Link: https://donpio.tech/repositories/nextcart
 
 
 <br /><br />

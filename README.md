@@ -1,5 +1,5 @@
 
-
+<br />
 
 <h2 align="center">NxtCart</h2>
 
@@ -13,9 +13,10 @@
 <br />
 
 
-<h2>Live link<h2>
+<h3>Live link<h3>
   
- <span>Github Pages</span>   ➡️  &nbsp;  [NextJS cart](https://stefan22.github.io/nxtCart)
+ 
+ ### <span>Github Pages</span>   ➡️  &nbsp;  [NextJS cart](https://stefan22.github.io/nxtCart)
 
 
 

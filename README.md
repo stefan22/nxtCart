@@ -16,7 +16,7 @@
 <h3>Live link<h3>
   
  
- ### <span>Github Pages</span>   ➡️  &nbsp;  [NextJS cart](https://github.com/stefan22/nxtCart/edit/main/README.md)
+ ### <span>Github Pages</span>   ➡️  &nbsp;  [NextJS cart](https://github.com/stefan22/nxtCart)
 
 
 
